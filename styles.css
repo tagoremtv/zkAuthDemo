@@ -1,0 +1,75 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color for better contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container styles */
+.container {
+    background: #1e1e1e; /* Slightly lighter dark background */
+    padding: 30px; /* Increased padding */
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 100%; /* Full width */
+    max-width: 500px; /* Set a maximum width to avoid overly wide screens */
+    margin: 20px; /* Margin for spacing */
+}
+
+/* Heading styles */
+h1, h2 {
+    text-align: center;
+    color: #ff9800; /* Orange color for headings */
+}
+
+/* Form container styles */
+.form-container {
+    margin: 20px 0;
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Arrange children vertically */
+    align-items: center; /* Center align items */
+}
+
+/* Input styles */
+input {
+    width: 100%;
+    padding: 12px; /* Increased padding for better touch targets */
+    margin: 10px 0; /* Increased margin */
+    border: 1px solid #444; /* Border for inputs */
+    border-radius: 4px;
+    background-color: #333; /* Dark background for inputs */
+    color: #e0e0e0; /* Light text color for inputs */
+}
+
+/* Button styles */
+button {
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    background-color: #ff9800; /* Orange background for buttons */
+    border: none;
+    color: white; /* White text for buttons */
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transition effect for hover */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #fb8c00; /* Darker orange on hover */
+}
+
+/* Responsive text sizing */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem; /* Adjust heading size on smaller screens */
+    }
+
+    h2 {
+        font-size: 1.2rem; /* Adjust subheading size */
+    }
+}
